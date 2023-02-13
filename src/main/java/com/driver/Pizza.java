@@ -70,7 +70,7 @@ public class Pizza {
                 this.bill += "Paperbag Added: 20" + "\n";
             }
             this.bill += "Total Price: " + this.price+"\n";
-            //this.isBillCreated = true;
+            // this.isBillCreated = true;
             return this.bill;
         }
         return " ";
