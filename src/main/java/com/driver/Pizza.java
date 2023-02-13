@@ -73,6 +73,6 @@ public class Pizza {
             this.isBillCreated = true;
             return this.bill;
         }
-        return "kkkkk ";
+        return this.bill;
     }
 }
