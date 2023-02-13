@@ -8,11 +8,11 @@ public class Main {
     dp.addExtraCheese();
     dp.addTakeaway();
     System.out.println(dp.getBill());
-    //jj
-    Pizza p = new Pizza(true);
+
+    Pizza p = new Pizza(false);
     p.addExtraCheese();
     p.addExtraToppings();
-    p.addTakeaway();
+    //p.addTakeaway();
     System.out.println(p.getBill());
   }
 }
